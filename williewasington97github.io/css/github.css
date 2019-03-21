@@ -1,0 +1,31 @@
+body {
+    background-color:black;
+}
+.image { 
+width: 200px;
+}
+}
+h1{
+    font-size:72px;
+}
+h1,h2,h3{
+    color:white;
+}
+p{
+    color:white;
+}
+a{
+    color: green;
+}
+.white{
+    background-color: black;
+}
+
+.headshot{
+    position: absolute;
+    margin-left: 350px;
+    top: 200px;
+    left:200px;
+    
+
+}

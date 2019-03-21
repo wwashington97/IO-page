@@ -1,0 +1,80 @@
+body{
+    background-color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-image   {
+    position: absolute;
+    max-height: 500px;
+    overflow: hidden;
+    width: 100%;
+    left: 0px;
+    margin-bottom:200px;
+}
+
+.headshot  {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+    width: 100%;
+    content: '';
+    display: block;
+    position: absolute;
+    top:100px;
+    bottom:0;
+    left:0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    color: green;
+    text-align: center;
+    border: 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.aboutme{
+    top: 50px;
+    text-align: center;
+    color: white;
+}
+.projects {
+    background-color: black;
+    text-align: center;
+    color:Green ;
+    
+}
+.projects h2 img {
+    position: absolute;
+    right: 20px;
+}
+.projects li{
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+    margin-left: 20px;
+
+}
+.projects li a {
+    background-color: black;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: green;
+}
+.contact {
+    background-color: green;
+    text-align: center;
+    color: black;
+}
+.contact li {
+    list-style: none;
+}
+h2 {
+    color:white;
+}
+h1 {
+    color: white;
+}
+p{
+    color: white;
+}
